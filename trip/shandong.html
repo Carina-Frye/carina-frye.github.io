@@ -6,44 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <script src="https://kit.fontawesome.com/07dd9e2b51.js" crossorigin="anonymous"></script>
+
     <style>
         li {
-            list-style-type: "\1F686"
+            list-style-type: "\2B55"
+        }
+        .center {
+            display: flex;
+            justify-content: center;
         }
     </style>
 </head>
 
 <body>
-    <div id="site">
-        <ul>
-            <li>丰台 -> 青岛北 (Z349[6.4 22:50~09:48, 11小时硬卧] [￥207x2])<br />
-                6.5: 五四广场 —— 奥帆中心 —— 情人坝<br />
-                6.6: 第一海水浴场 —— 啤酒博物馆 —— 台东步行街<br />
-                6.7: 栈桥景区 —— 天主教堂 —— 青岛北站<br />
-            </li>
-
-            <li>青岛北 -> 大明湖(Z170[6.7 14:33~17:34, 3小时硬座][￥53.5x2])<br />
-                6.7: 休息,逛吃逛喝<br />
-                6.8: 趵突泉——五龙潭——大明湖——芙蓉街<br />
-                6.9: 千佛山——山东博物馆——山东美术馆<br />
-                6.10: 上午休息 —— 济南站<br />
-            </li>
-
-            <li>济南 -> 泰山(K8251[6.10 15:17~16:04, 1小时硬座][￥12.5x2])<br />
-                6.10: 下午爬泰山<br />
-                6.11: 清晨看日出 —— 回去休息 —— 泰安站<br />
-            </li>
-
-            <li>
-                泰安 -> 北京(G118[6.11 13:50~15:47, 2小时高铁][￥223x2])<br />
-                6.11: 下午到校
-            </li>
-        </ul>
-    </div>
-    <hr />
-    <img src="../assets/img/shandong_map.jpg" alt="山东地图" class="rounded mx-auto d-block"/>
+    <div class="container">
+        <div class="center">
+            <ul id="spot">
+                <li>北京南 -> 青岛 (&#x1F4C5;5.28 &emsp; &#x1f684;G205 &emsp; &#x1F552;10:37~14:26, 3时49分 &emsp; &#x1F4B2;349x2)<br />
+                    5.28：台东步行街<br />
+                    5.29: 奥帆中心 —— 情人坝 —— 五四广场<br />
+                    5.30: 第一海水浴场 —— 栈桥景区<br />
+                    5.31: 旅馆 —— 青岛站<br />
+    
+                    &#x1F3E0; 温情海畔海景度假公寓 &#x1F4B2;524.9
+                </li>
+                <br />
+                <li> 青岛 -> 淄博 (&#x1F4C5;5.31 &emsp; &#x1f684;G1068 &emsp; &#x1F552;10:08~12:11, 2时3分 &emsp; &#x1F4B2;89.5x2)<br />
+                    &#x1F362;王一烧烤
+                </li>
+                <br />
+                <li>淄博 -> 济南(&#x1F4C5;5.31 &emsp; &#x1f684;Z170 &emsp; &#x1F552;16:44~17:51, 1时7分 &emsp; &#x1F4B2;16.5x2)<br />
+                    5.31: 逛吃逛喝，休息<br />
+                    6.1: 趵突泉 —— 五龙潭 —— 大明湖 —— 芙蓉街<br />
+                    6.2: 千佛山 —— 山东博物馆 —— 山东美术馆<br />
+                    6.3: 上午休息 —— 济南站<br />
+    
+                    &#x1F3E0; 博尚电竞影音酒店 &#x1F4B2;521.45
+                </li>
+                <br />
+                <li>济南 -> 泰山(&#x1F4C5;6.3 &emsp; &#x1f684;K5503 &emsp; &#x1F552;14:00~14:52, 52分 &emsp; &#x1F4B2;12.5x2)<br />
+                    6.3: 晚上爬泰山<br />
+                    6.4: 清晨看日出 —— 下山休息 —— 泰安站<br />
+    
+                    &#x1F3E0; 秋茗山居民宿 &#x1F4B2;163.2
+                </li>
+                <br />
+                <li>
+                    泰安 -> 北京(&#x1F4C5;6.4 &emsp; &#x1f684;G118 &emsp; &#x1F552;13:50~15:47, 1时57分 &emsp; &#x1F4B2;223x2)<br />
+                    &#x1F3EB; 到校
+                </li>
+            </ul>
+        </div>
+        <hr />
+        <img src="../assets/img/shandong_map.jpg" alt="山东地图" class="img-fluid rounded mx-auto d-block"/>
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
